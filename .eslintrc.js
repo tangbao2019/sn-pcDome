@@ -162,7 +162,7 @@ module.exports = {
       }
     }],
     'padded-blocks': [2, 'never'],
-    'quotes': [2, 'single', {
+    'quotes': [2, 'singlequote', {
       'avoidEscape': true,
       'allowTemplateLiterals': true
     }],
@@ -193,6 +193,7 @@ module.exports = {
     'object-curly-spacing': [2, 'always', {
       objectsInObjects: false
     }],
-    'array-bracket-spacing': [2, 'never']
+    'array-bracket-spacing': [2, 'never'],
+    'vue/html-self-closing': 'off'
   }
 }
